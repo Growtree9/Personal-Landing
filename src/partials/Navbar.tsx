@@ -12,7 +12,7 @@ const Navbar = () => (
       <a href="/">
         <Logo
           icon={
-            <img className='w-10 mr-3' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/621px-NestJS.svg.png?20221211225055'/>
+            <img className='w-10 mr-3' src='assets/images/nestjs-logo.png'/>
 
           }
           name="Mohammad Hasani"

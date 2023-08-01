@@ -23,7 +23,7 @@ const ProjectList = () => (
         MongoDB and Docker."
         link="https://tavangar.ir"
         img={{
-          src: 'https://tavangar.ir/logo-wallpaper.png',
+          src: 'assets/images/tavangar.png',
           alt: 'Tanvagar Project',
         }}
         category={
@@ -44,7 +44,7 @@ const ProjectList = () => (
         Nginx, and Next and we maintain this service every
         day."
         link="https://boookito.ir"
-        img={{ src: 'https://boookito.ir/logo.svg', alt: 'Boookito Project' }}
+        img={{ src: 'assets/images/boookito.svg', alt: 'Boookito Project' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
@@ -60,7 +60,7 @@ const ProjectList = () => (
         description="RavensAi is a powerful image search engine that detects images in the shortest possible time
         And we use golang docker nodejs mongodb milvus Angular to have a relatively stable service."
         link="https://ravens.ir"
-        img={{ src: 'https://avatars.githubusercontent.com/u/130699256?s=200&v=4', alt: 'Ravens Project' }}
+        img={{ src: 'assets/images/ravnes.png', alt: 'Ravens Project' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Golang</Tags>
@@ -78,7 +78,7 @@ const ProjectList = () => (
         name="Migmigo.ir"
         description="This is a landing page written with Astro js and Tailwind Css for the Iranian browser called MigMigo. We used many tools for this project and it is a very complex project."
         link="https://migmigo.ir"
-        img={{ src: 'https://migmigo.ir/images/logo-3.svg', alt: 'Migmigo Project' }}
+        img={{ src: 'assets/images/migmigo.svg', alt: 'Migmigo Project' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>AstroJS</Tags>
@@ -98,7 +98,7 @@ const ProjectList = () => (
         name="Logobaaz.ir"
         description="There is a big project with artificial intelligence that gives companies and individuals the power to design their own logo with AI."
         link="https://logobaaz.ir/"
-        img={{ src: 'https://logobaaz.ir/logo.svg', alt: 'Logobaaz Project' }}
+        img={{ src: '/assets/images/logobaaz.svg', alt: 'Logobaaz Project' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>NextJs</Tags>
