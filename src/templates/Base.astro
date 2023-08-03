@@ -21,10 +21,29 @@ const {
     <meta name='description' content={description} />
     <meta name='author' content={AppConfig.author} />
     <meta name="google-site-verification" content="u8AmuJRIr8S96NAbqOLoaW0rkuIxAkf7jO5CEKX5MGE" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G4M1HL9SL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-7G4M1HL9SL');
+    </script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJZXV55H');</script>
+  <!-- End Google Tag Manager -->
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='favicon.ico' />
   </head>
   <body class='bg-slate-900 text-gray-100'>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJZXV55H"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
     <Navbar />
 
     <slot></slot>
